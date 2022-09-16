@@ -37,7 +37,8 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
                 borderRadius: SIZES.extraLarge,
                 minWidth: minWidth,
                 padding: SIZES.small,
-                ...props
+                ...props,
+                bottom: 10
             }}
             onPress={handlePress}
         >

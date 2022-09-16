@@ -3,11 +3,12 @@ import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { useFonts } from "expo-font";
 import Home from './screens/Home'
 import Details from './screens/Details'
-import InterBold from './assets/fonts/Inter-Bold.ttf'
-import InterSemiBold from './assets/fonts/Inter-SemiBold.ttf'
-import InterMedium from './assets/fonts/Inter-Medium.ttf'
-import InterRegular from './assets/fonts/Inter-Regular.ttf'
-import InterLight from './assets/fonts/Inter-Light.ttf'
+// import InterBold from './assets/fonts/Inter-Bold.ttf'
+// import InterSemiBold from './assets/fonts/Inter-SemiBold.ttf'
+// import InterMedium from './assets/fonts/Inter-Medium.ttf'
+// import InterRegular from './assets/fonts/Inter-Regular.ttf'
+// import InterLight from './assets/fonts/Inter-Light.ttf'
+
 
 const Stack = createStackNavigator()
 
@@ -20,15 +21,15 @@ const theme = {
 }
 
 const App = () => {
-  const [loaded] = useFonts({
-    InterBold,
-    InterSemiBold,
-    InterMedium,
-    InterRegular,
-    InterLight,
-  })
+  // const [loaded] = useFonts({
+  //   InterBold,
+  //   InterSemiBold,
+  //   InterMedium,
+  //   InterRegular,
+  //   InterLight,
+  // })
 
-  if (!loaded) return null
+  // if (!loaded) return null
 
   return (
     <NavigationContainer theme={theme}>
